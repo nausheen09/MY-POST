@@ -39,7 +39,7 @@ body::before {
 }
 .color-red{
     background: rgb(162,5,135);
-    color: #09010e;
+    color: #000000;
     background: linear-gradient(90deg, rgba(162,5,135,1) 13%, rgba(200,29,73,1) 100%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: 0px, solid;
