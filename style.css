@@ -1,0 +1,69 @@
+
+body {
+    background-image: url('img/Hey\ Pandas\,\ Post\ A\ Pic\ Of\ A\ Mountain\ Scenery\ \(Closed\).jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #37c5e1;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0); 
+    z-index: -1;
+}
+
+
+.fontStyle {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+}
+.bg-green {
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    height: 80px !important;
+}
+.color-blue{
+    background-image: linear-gradient(to top, #5ee7df 0%, #a037e1 100%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0px, solid;
+    color: #1a0526;
+}
+.color-blue:hover {
+    background-color: #0c62ae;
+}
+.color-red{
+    background: rgb(162,5,135);
+    color: #09010e;
+    background: linear-gradient(90deg, rgba(162,5,135,1) 13%, rgba(200,29,73,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0px, solid;
+}
+.border-green {
+    border: 2px solid #d1d1d1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(142, 142, 142, 0.698);
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+}
+.image-row img {
+    width: 70px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+#posts .card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
